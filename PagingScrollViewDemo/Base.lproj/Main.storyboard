@@ -18,12 +18,15 @@
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFT-kn-UDI">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="oJm-gP-eqs" userLabel="[Placeholder] Width - (600) - Container View"/>
+                                </constraints>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="SFT-kn-UDI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Lk-VO-FBI"/>
-                            <constraint firstItem="SFT-kn-UDI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="cUa-F4-vdt"/>
+                            <constraint firstItem="SFT-kn-UDI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" priority="750" id="cUa-F4-vdt"/>
                             <constraint firstAttribute="bottom" secondItem="SFT-kn-UDI" secondAttribute="bottom" id="gkW-IA-8Rl"/>
                             <constraint firstItem="SFT-kn-UDI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="y1G-z3-e0M"/>
                         </constraints>
